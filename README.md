@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/95d73b13-1323-45da-9241-e189a08cb5aa)# El Noticiero
+# El Noticiero
 
 ## Descripción
 
