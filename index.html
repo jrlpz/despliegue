@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico Digital</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">El Noticiero</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Últimas Noticias</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Política</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Deportes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Cultura</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <!-- Artículo Principal -->
+    <article class="articulo-principal">
+        <div class="row">
+            <div class="col-md-8">
+                <span class="badge bg-danger categoria-badge">Última Hora</span>
+                <img src="https://picsum.photos/id/10/800/400" class="img-fluid rounded mb-3 img-articulo" alt="Noticia principal">
+            </div>
+            <div class="col-md-4">
+                <h2 class="mb-3">Descubrimiento científico revoluciona la medicina moderna</h2>
+                <p class="fecha-articulo">15 de Marzo, 2023</p>
+                <p class="autor-articulo">Por: Dra. María López</p>
+                <p>Un equipo internacional de investigadores ha anunciado un avance significativo en el tratamiento del cáncer mediante inmunoterapia...</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Artículos Secundarios -->
+    <div class="row">
+        <!-- Artículo 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100">
+                <img src="https://picsum.photos/id/20/400/250" class="card-img-top img-articulo" alt="Noticia 1">
+                <div class="card-body">
+                    <span class="badge bg-success">Medio Ambiente</span>
+                    <h3 class="h5 mt-2">Nueva ley de protección ambiental</h3>
+                    <p class="fecha-articulo">14 de Marzo, 2023</p>
+                    <p class="card-text">El gobierno anuncia medidas estrictas contra la contaminación plástica en océanos...</p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Leer completo</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Artículo 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100">
+                <img src="https://picsum.photos/id/30/400/250" class="card-img-top img-articulo" alt="Noticia 2">
+                <div class="card-body">
+                    <span class="badge bg-warning text-dark">Economía</span>
+                    <h3 class="h5 mt-2">Baja el precio de los combustibles</h3>
+                    <p class="fecha-articulo">13 de Marzo, 2023</p>
+                    <p class="card-text">La estabilización del mercado internacional petrolero beneficia a los consumidores...</p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Leer completo</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Artículo 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="card h-100">
+                <img src="https://picsum.photos/id/40/400/250" class="card-img-top img-articulo" alt="Noticia 3">
+                <div class="card-body">
+                    <span class="badge bg-info">Tecnología</span>
+                    <h3 class="h5 mt-2">Lanzamiento del nuevo smartphone plegable</h3>
+                    <p class="fecha-articulo">12 de Marzo, 2023</p>
+                    <p class="card-text">La compañía surcoreana presenta su último modelo con pantalla ultra flexible...</p>
+                    <a href="#" class="btn btn-outline-primary btn-sm">Leer completo</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2023 El Noticiero - Todos los derechos reservados</p>
+        <div class="mt-2">
+            <a href="#" class="text-white mx-2">Política de privacidad</a>
+            <a href="#" class="text-white mx-2">Contacto</a>
+            <a href="#" class="text-white mx-2">Redacción</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

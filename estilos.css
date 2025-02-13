@@ -1,0 +1,56 @@
+/* Estilos generales */
+.articulo-principal {
+    border-bottom: 3px solid #007bff;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.img-articulo {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.img-articulo:hover {
+    transform: scale(1.03);
+}
+
+.fecha-articulo {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.autor-articulo {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.categoria-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+/* Ajustes para tarjetas */
+.card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    background-color: #343a40;
+}
+
+/* Responsividad imágenes */
+@media (max-width: 768px) {
+    .img-articulo {
+        height: 200px;
+    }
+}
