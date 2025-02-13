@@ -1,26 +1,19 @@
-# Nombre de Tu Proyecto Web
+# El Noticiero
 
 ## Descripción
 
-[Describe brevemente de qué trata tu sitio web.  ¿Cuál es su propósito?  ¿Qué problema resuelve o qué necesidad satisface?]
+Página web con noticias para pratica de desplliegue.
 
-Ejemplo:
-Este sitio web es un portafolio personal que muestra mis proyectos de desarrollo web, mis habilidades y mi experiencia. Permite a los visitantes conocer mi trabajo y contactarme.
 
 ## Tecnologías Utilizadas
 
-[Lista las tecnologías que has usado, con enlaces si es relevante.]
-
 *   HTML5
 *   CSS3
-*   JavaScript
-*   [Otras tecnologías, frameworks, bibliotecas...]
+*   Bootstrap
 
 ## Secciones
 
-[Describe las secciones principales de tu sitio web.  Incluye capturas de pantalla para cada sección.]
-
-1.  **Inicio (Home):**
+1.  **Inicio (Index.html):**
     [Breve descripción de la sección de inicio.]
     ![Captura de pantalla de la sección Inicio](ruta/a/captura-inicio.png)  <!-- ¡Añade las imágenes a tu repositorio! -->
 
